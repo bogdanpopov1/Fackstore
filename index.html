@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/index.js" defer></script>
+    <title>F*ckStore</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <header>
+
+                        <div class="header">
+
+                            <ul class="header-links">
+
+                                <a href="/assets/pages/catalog.html">
+                                    <li class="header-link">Новинки</li>
+                                </a>
+                                <a href="/assets/pages/catalog.html">
+                                    <li class="header-link">Женщинам</li>
+                                </a>
+                                <a href="/assets/pages/catalog.html">
+                                    <li class="header-link">Мужчинам</li>
+                                </a>
+                                <a href="/assets/pages/catalog.html">
+                                    <li class="header-link">Распродажа</li>
+                                </a>
+
+                            </ul>
+
+
+
+                            <a href="index.html">
+                                <div class="header-logo">F*ckstore</div>
+                            </a>
+
+                            <ul class="header-icons">
+
+                                <li class="header-search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                                    <form>
+                                        <label for="search"></label>
+                                        <input type="text" id="search" placeholder="Поиск">
+                                    </form>
+                                </li>
+
+                                <li class="header-heart">
+                                    <img src="./assets/img/icons/heart.svg" alt="heart">
+                                </li>
+                                <li class="header-account">
+                                    <img src="./assets/img/icons/account.svg" alt="account">
+                                </li>
+                                <li class="header-basket js-show-modal">
+                                    <img src="./assets/img/icons/basket.svg" alt="basket">
+                                </li>
+
+                            </ul>
+
+                            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+
+                        </div>
+
+                        <div class="header-burger">
+
+                            <ul class="header-burger__links">
+
+                                <a href="../assets/pages/catalog.html">
+                                    <li class="header-link">Новинки</li>
+                                </a>
+                                <a href="../assets/pages/catalog.html">
+                                    <li class="header-link">Женщинам</li>
+                                </a>
+                                <a href="../assets/pages/catalog.html">
+                                    <li class="header-link">Мужчинам</li>
+                                </a>
+                                <a href="../assets/pages/catalog.html">
+                                    <li class="header-link">Распродажа</li>
+                                </a>
+
+                            </ul>
+
+                            <ul class="header-burger__icons">
+
+                                <li class="header-search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                                    <form>
+                                        <label for="search"></label>
+                                        <input type="text" id="search" placeholder="Поиск">
+                                    </form>
+                                </li>
+
+                                <li class="header-heart">
+                                    <img src="./assets/img/icons/heart.svg" alt="#">
+                                </li>
+                                <li class="header-account">
+                                    <img src="./assets/img/icons/account.svg" alt="#">
+                                </li>
+                                <li class="header-basket js-show-modal">
+                                    <img src="./assets/img/icons/basket.svg" alt="#">
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </header>
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="banner-content">
+
+                            <h1>Осенняя коллекция 2023</h1>
+                            <hr>
+                            <a href="/assets/pages/catalog.html">перейти к покупкам</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <main>
+
+            <div class="card-container">
+
+                <div class="cards">
+
+                    <div class="cards-header">
+
+                        <a href="#">Новинки</a>
+
+                        <a href="/assets/pages/catalog.html">Смотреть всё ></a>
+
+                    </div>
+
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/news/card1.png" alt="card">
+
+                                    <p class="card-name">Чёрная базовая футболка из 100% хлопка</p>
+
+                                    <p class="card-price">2 980 ₽</p>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/news/card2.png" alt="card">
+
+                                    <p class="card-name">Белая толстовка с капюшоном и логотипом</p>
+
+                                    <p class="card-price">7 980 ₽</p>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/news/card3.png" alt="card">
+
+                                    <p class="card-name">Толстовка с капюшоном из 100% хлопка</p>
+
+                                    <p class="card-price">12 100 ₽</p>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/news/card4.png" alt="card">
+
+                                    <p class="card-name">Высокие кроссовки с логотипом</p>
+
+                                    <p class="card-price">21 100 ₽</p>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/news/card5.png" alt="card">
+
+                                    <p class="card-name">Эксклюзивная футболка «PUNAKAWAN»</p>
+
+                                    <p class="card-price">8 680 ₽</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="cards">
+
+                    <div class="cards-header">
+
+                        <a href="#">Мужчинам</a>
+
+                        <a href="/assets/pages/catalog.html">Смотреть всё ></a>
+
+                    </div>
+
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/men/card1.png" alt="card">
+
+                                    <p class="card-name">Чёрная футболка с принтом «рука скелета»...</p>
+
+                                    <p class="card-price">4 990 ₽</p>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/men/card2.png" alt="card">
+
+                                    <p class="card-name">Белая толстовка с капюшоном и надписью...</p>
+
+                                    <p class="card-price">6 199 ₽</p>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/men/card3.png" alt="card">
+
+                                    <p class="card-name">Толстовка с капюшоном из 100% хлопка</p>
+
+                                    <p class="card-price">12 500 ₽</p>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/men/card4.png" alt="card">
+
+                                    <p class="card-name">Экслюзивная толстовка с капюшоном из ...</p>
+
+                                    <p class="card-price">21 100 ₽</p>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/men/card5.png" alt="card">
+
+                                    <p class="card-name">Низкие кроссовки «RETRO80-97»</p>
+
+                                    <p class="card-price">16 990 ₽</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="cards">
+
+                    <div class="cards-header">
+
+                        <a href="#">Женщинам</a>
+
+                        <a href="/assets/pages/catalog.html">Смотреть всё ></a>
+
+                    </div>
+
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/women/card1.png" alt="card">
+
+                                    <p class="card-name">Летний образ «GirlFromUSA 60-80»</p>
+
+                                    <p class="card-price">7 999 ₽</p>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/women/card2.png" alt="card">
+
+                                    <p class="card-name">Эксклюзивное платье «с любовью из Росс...</p>
+
+                                    <p class="card-price">9 199 ₽</p>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/women/card3.png" alt="card">
+
+                                    <p class="card-name">Боди чёрного цвета</p>
+
+                                    <p class="card-price">4 500 ₽</p>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/women/card4.png" alt="card">
+
+                                    <p class="card-name">Белое платье «моя невеста»</p>
+
+                                    <p class="card-price">96 999 ₽</p>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/women/card5.png" alt="card">
+
+                                    <p class="card-name">Летнее платье с цветами</p>
+
+                                    <p class="card-price">1 990 ₽</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="cards">
+
+                    <div class="cards-header">
+
+                        <a href="#">Распродажа</a>
+
+                        <a href="/assets/pages/catalog.html">Смотреть всё ></a>
+
+                    </div>
+
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/sale/card1.png" alt="card">
+
+                                    <p class="card-name">Белое платье с прямоугольным вырезом</p>
+
+                                    <div class="price">
+
+                                        <p class="old-price">4 999 ₽</p>
+                                        <p class="new-price">1 999 ₽</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/sale/card2.png" alt="card">
+
+                                    <p class="card-name">Эксклюзивное платье «RETRO60-66»</p>
+
+                                    <div class="price">
+
+                                        <p class="old-price">26 199 ₽</p>
+                                        <p class="new-price">11 999 ₽</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/sale/card3.png" alt="card">
+
+                                    <p class="card-name">Серые классические туфли</p>
+
+                                    <div class="price">
+
+                                        <p class="old-price">12 500 ₽</p>
+                                        <p class="new-price">2 500 ₽</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/sale/card4.png" alt="card">
+
+                                    <p class="card-name">Экслюзивный образ «королева пустыни»</p>
+
+                                    <div class="price">
+
+                                        <p class="old-price">121 000 ₽</p>
+                                        <p class="new-price">71 900 ₽</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="card">
+
+                                    <img src="./assets/img/catalog/sale/card5.png" alt="card">
+
+                                    <p class="card-name">Белая рубашка с открытыми плечами</p>
+
+                                    <div class="price">
+
+                                        <p class="old-price">6 990 ₽</p>
+                                        <p class="new-price">4 990 ₽</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <hr>
+
+        <footer>
+            <div class="footer-container">
+
+                <div class="footer-description">
+                    <a href="index.html">
+                        <div class="footer-logo">F*ckstore</div>
+                    </a>
+                    <p>Вещи премиального качества<br>
+                        от известных мировых дизайнеров<br>
+                        идеально воссоздают ваш<br>
+                        имидж подчеркивая статус</p>
+                </div>
+
+                <ul class="footer-ul">
+                    <li class="footer-li">
+                        <a href="#">
+                            <h2>Коллекии</h2>
+                        </a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Новинки</p>
+                        </a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Мужчинам</p>
+                        </a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Женщинам</p>
+                        </a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Распродажа</p>
+                        </a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Коллекция «ОСЕНЬ23»</p>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-ul">
+
+                    <li class="footer-li">
+                        <a href="#">
+                            <h2>Покупателям</h2>
+                        </a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Возврат</p>
+                        </a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Доставка</p>
+                        </a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Вопросы и ответы</p>
+                        </a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Способы оплаты</p>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-ul">
+
+                    <li class="footer-li">
+                        <a href="#">
+                            <h2>О магазине</h2>
+                        </a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Возврат</p>
+                        </a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Доставка</p>
+                        </a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Вопросы и ответы</p>
+                        </a>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Способы оплаты</p>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-ul">
+
+                    <li class="footer-li">
+                        <a href="#">
+                            <h2>Социальные сети</h2>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>ВКонтакте</p>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Instagram</p>
+                    </li>
+                    <li class="footer-li">
+                        <a href="#">
+                            <p>Telegram</p>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </footer>
+    </div>
+
+    <div class="modal">
+
+        <div class="modal-window">
+
+            <div class="modal-header">
+
+                <button class="js-close-modal">⨉</button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <h2>Ваши товары</h2>
+
+                <h4>Товар</h4>
+                <p>...</p>
+                <hr>
+
+                <h4>Товар</h4>
+                <p>...</p>
+                <hr>
+
+                <h4>Товар</h4>
+                <p>...</p>
+                <hr>
+
+                <h4>Товар</h4>
+                <p>...</p>
+                <hr>
+
+                <h4>Товар</h4>
+                <p>...</p>
+                <hr>
+
+                <h4>Товар</h4>
+                <p>...</p>
+                <hr>
+
+                <h4>Товар</h4>
+                <p>...</p>
+                <hr>
+
+                <h4>Товар</h4>
+                <p>...</p>
+                <hr>
+
+                <h4>Товар</h4>
+                <p>...</p>
+                <hr>
+
+                <h4>Товар</h4>
+                <p>...</p>
+                <hr>
+
+                <h4>Товар</h4>
+                <p>...</p>
+            </div>
+
+            <div class="modal-footer">
+
+                <button class="buy">Оформить заказ</button>
+                <button class="clear">Очистить корзину</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
